@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>PHP Test</title>
+  <title>Product importer</title>
  </head>
  <body>
  
@@ -10,19 +10,67 @@ if (!defined('_PS_ADMIN_DIR_')) {
     define('_PS_ADMIN_DIR_', getcwd());
 }
 include(_PS_ADMIN_DIR_.'/../config/config.inc.php');
-
 //authorisation();
+ini_set('max_execution_time', '60000');
 
-$categories_cache = [];
 $products_loaded_indicator_file = './lamps/products_loaded_indicator';
 if (!file_exists($products_loaded_indicator_file))
 {
+    clearProductsAndCategories();
+    
+    $categories_cache = [];
     addProducts();
-     
+    
+    clearCache();
+
     fclose(fopen($products_loaded_indicator_file,"w"));
-    echo '<p>Hello World</p>'; 
+    echo '<p>Successfuly added products and categories.</p>'; 
 }
 echo '<p>Done</p>'; 
+
+
+
+function clearCache()
+{
+    Tools::clearSmartyCache();
+    Tools::clearXMLCache();
+    Media::clearCache();
+    
+    Tools::generateIndex();
+    include(_PS_ADMIN_DIR_.'/index.php?controller=AdminSearch&action=searchCron&ajax=1&full=1&id_shop=1');
+}
+
+function clearProductsAndCategories()
+{
+    $res = Db::getInstance()->executeS('SELECT `id_product` FROM `'._DB_PREFIX_.'product` ORDER BY `id_product` DESC LIMIT 10000 ');
+    echo "<p>(".date('Y/m/d H:i:s').") Starting to delete products...</p>";
+    if ($res) {
+        foreach ($res as $row) {
+            echo "<p>(".date('Y/m/d H:i:s').") Deleting product with ID <b>".$row['id_product']."</b>...";
+            $p = new Product($row['id_product']);
+            if(!$p->delete()) {
+                echo " <span style='color: red'>Error deleting this product!</span></p>";
+            } else {
+                echo " <span style='color: green'>DELETED</span></p>";
+            }
+        }
+    }
+    
+    $resCat = Db::getInstance()->executeS('SELECT `id_category` FROM `'._DB_PREFIX_.'category` WHERE `id_category` > 2 ORDER BY `id_category`');
+    echo "<p>(".date('Y/m/d H:i:s').") Starting to delete categories...</p>";
+    var_dump($resCat);
+    if ($resCat) {
+        foreach ($resCat as $row) {
+            echo "<p>(".date('Y/m/d H:i:s').") Deleting category with ID <b>".$row['id_category']."</b>...";
+            $p = new Category($row['id_category']);
+            if(!$p->delete()) {
+                echo " <span style='color: red'>Error deleting this category!</span></p>";
+            } else {
+                echo " <span style='color: green'>DELETED</span></p>";
+            }
+        }
+    }
+}
 
 function addProducts()
 {
@@ -41,6 +89,8 @@ function addProducts()
             $json_product["attributes"]
         );
     }
+    
+    Tools::generateIndex();
 }
  
 function addProduct($ean13, $name, $desc, $price, $main_photo_uri, $photos, $categories, $attributes) 
