@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e32a680a-18b4-45ff-92cd-b87633bf92b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yuhkXj9vW982Q8EbzoYrhYDxVA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LeroyScraper" type="PythonConfigurationType" factoryName="Python">
+      <module name="Scraper_Leroy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Janek\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="LeroyScraper" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e32a680a-18b4-45ff-92cd-b87633bf92b1" name="Default Changelist" comment="" />
+      <created>1633107523512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633107523512</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638662583263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638662583263" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1638662580438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638662580438" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638707526756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638707526756" />
+    <state width="1401" height="466" key="DebuggerActiveHint" timestamp="1638834654753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1401" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638834654753" />
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1638826680046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638826680046" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.1.bottom" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.1.center" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.1.center/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.1.left" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.1.left/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state width="1899" height="319" key="GridCell.Tab.1.right" timestamp="1638837069853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.1.right/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638837069853" />
+    <state x="667" y="122" width="585" height="795" key="find.popup" timestamp="1638706170482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="122" width="585" height="795" key="find.popup/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638706170482" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638825103359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.30.1680.1010@0.0.1920.1040" timestamp="1638825103359" />
+  </component>
+</project>
