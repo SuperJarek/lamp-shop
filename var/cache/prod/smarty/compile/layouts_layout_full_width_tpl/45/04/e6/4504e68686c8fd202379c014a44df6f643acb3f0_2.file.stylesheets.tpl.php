@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2021-12-10 21:05:47
+/* Smarty version 3.1.33, created on 2021-12-12 01:20:59
   from '/var/www/html/themes/classic/templates/_partials/stylesheets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_61b3b31ba9d516_05876961',
+  'unifunc' => 'content_61b5406bc1a707_63719749',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4504e68686c8fd202379c014a44df6f643acb3f0' => 
     array (
       0 => '/var/www/html/themes/classic/templates/_partials/stylesheets.tpl',
-      1 => 1638624871,
+      1 => 1639233694,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61b3b31ba9d516_05876961 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61b5406bc1a707_63719749 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['stylesheets']->value['external'], 'stylesheet');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['stylesheet']->value) {

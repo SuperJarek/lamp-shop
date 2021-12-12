@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2021-12-10 21:10:56
+/* Smarty version 3.1.33, created on 2021-12-12 01:19:46
   from '/var/www/html/admin136kdo2mw/themes/default/template/helpers/modules_list/modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_61b3b450349374_01310236',
+  'unifunc' => 'content_61b54022a1a602_30532069',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c87b640441cbc4b38c85f9475e2bb5a657ca350a' => 
     array (
       0 => '/var/www/html/admin136kdo2mw/themes/default/template/helpers/modules_list/modal.tpl',
-      1 => 1638907470,
+      1 => 1639233680,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61b3b450349374_01310236 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61b54022a1a602_30532069 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="modal fade" id="modules_list_container">
 	<div class="modal-dialog">
 		<div class="modal-content">
